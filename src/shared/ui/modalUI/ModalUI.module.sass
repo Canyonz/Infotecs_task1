@@ -1,0 +1,18 @@
+.modalUI
+  display: flex
+  justify-content: center
+  align-items: center
+  position: fixed
+  inset: 0
+  z-index: 1000
+
+  .content
+    flex: 1
+    max-width: 60%
+    padding: 20px
+    background: #fff
+    border-radius: 12px
+    z-index: 1000
+
+    @media screen and (max-width:700px)
+      max-width: 75%
